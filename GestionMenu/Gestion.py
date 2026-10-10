@@ -88,7 +88,7 @@ class GestionMenu:
         logging.basicConfig(
         filename='app.log',
         filemode='a',  # 'a' para añadir al archivo
-        level=logging.INFO)
+        level=logging.INFO
         logging.info('Este mensaje se guardará en app.log')
 
     
